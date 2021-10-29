@@ -10,7 +10,7 @@
          <span className='stats'>
              {stats.error && '😖Error!'}
              {stats.isLoading && '🙄Loading...'}
-             {stats.downloads != null && '🤟${stats.downlaods}'}
+             {stats.downloads != null && `🤟${stats.downloads}`}
          </span>
      )
  }

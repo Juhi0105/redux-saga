@@ -48,7 +48,7 @@ class ImageGrid extends Component {
                 >
                     Load more
                 </Button>
-                //loadimages action call
+            {/* loadimages action call */}
             </div>
         );
     }
